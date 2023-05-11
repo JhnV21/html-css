@@ -24,7 +24,8 @@ header > h1{
     padding-top: 50px;
     font-family: var(--fonte2);
     font-weight: bold;
-    font-size: 6em;
+    font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header > p{
@@ -51,7 +52,7 @@ section{
 }
 
 #img01{
-    background: url(imagens/background001.jpg) center center no-repeat fixed;
+    background: url('../imagens/background001.jpg') center center no-repeat fixed;
     background-size: cover;
     box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.373) inset;
 }
@@ -64,7 +65,7 @@ section{
 }
 
 #img02{
-    background: url(imagens/background002.jpg) center center no-repeat fixed;
+    background: url('../imagens/background002.jpg') center center no-repeat fixed;
     background-size: cover;
     box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.373) inset;
 }
